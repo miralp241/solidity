@@ -8,9 +8,9 @@ void division(int temp[],int gen[],int n,int r)
      {
          for(int j=0,k=i;j<r+1;j++,k++)
              if(!(temp[k]^gen[j]))
-                 temp[k]=0;
-             else
                  temp[k]=1;
+             else
+                 temp[k]=0;
      } }}
 int main()
 //{int n,r,message[50],gen[50],temp[50];
